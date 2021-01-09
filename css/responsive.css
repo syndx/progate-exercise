@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+
+@media (max-width: 1000px) {
+    .lesson {
+        width: 50%;
+        margin-bottom: 50px;
+    }
+
+    .top-wrapper h1 {
+        font-size: 32px;
+    }
+
+    .heading h2 {
+        font-size: 20px;
+    }
+
+    .flex-list {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 670px) {
+    .top-wrapper {
+        text-align: left;
+        padding-top: 130px;
+    }
+
+    .top-wrapper h1 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .top-wrapper p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    
+    .header-right {
+        display: none;
+    }
+
+    header .container .fa {
+        display: block;
+        font-size: 25px;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .facebook {
+        margin-bottom: 10px;
+    }
+
+    .flex-list {
+        flex-direction: column;
+    }
+
+    .lesson {
+        margin: 20px auto;
+        width: 100%;
+    }
+
+    footer {
+        text-align: center;
+    }
+}
